@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+// module.exports = {
+//   reactStrictMode: true,
+// }
+
+module.exports = ({
   reactStrictMode: true,
-}
+  images: {
+    domains: ['rb.gy', 'image.tmdb.org'],
+  },
+})
